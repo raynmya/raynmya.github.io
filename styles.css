@@ -1,10 +1,12 @@
-body, html {
+/* Basic styling for the entire page */
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
     height: 100%;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #2b1331, #1c0b24);
     overflow: hidden;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #2b1331 0%, #1c0b24 100%);
     color: white;
   }
   
@@ -18,22 +20,26 @@ body, html {
   }
   
   h1 {
-    font-size: 4em;
-    margin-bottom: 0.2em;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 600;
   }
   
   p {
-    font-size: 1.5em;
-    margin-top: 0;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
   }
   
+  /* Styling for hand and orb background */
   #hand {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 90C30 90 15 75 15 55C15 35 30 20 50 20C70 20 85 35 85 55C85 75 70 90 50 90Z" fill="%23f0f0f0"/></svg>') no-repeat center center;
-    background-size: contain;
-    opacity: 0.5;
+    background: url('hand.png') no-repeat center center;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: 0;
   }
   
   #orb {
@@ -42,6 +48,7 @@ body, html {
     height: 100%;
     background: radial-gradient(circle at center, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0));
     animation: pulse 3s infinite ease-in-out;
+    z-index: 1;
   }
   
   @keyframes pulse {
@@ -55,20 +62,21 @@ body, html {
     }
   }
   
+  /* Social media buttons */
   .social-buttons {
-    margin-top: 1.5em;
+    margin-top: 20px;
   }
   
   .social-buttons a {
-    margin: 0 10px;
-    text-decoration: none;
+    margin: 0 15px;
+    display: inline-block;
   }
   
   .social-icon {
     width: 40px;
     height: 40px;
     filter: invert(100%);
-    transition: transform 0.2s;
+    transition: transform 0.3s ease;
   }
   
   .social-icon:hover {

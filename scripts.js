@@ -1,10 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const hand = document.getElementById('hand');
+// This script adds a subtle animation to the orb in the background
+
+document.addEventListener('DOMContentLoaded', () => {
     const orb = document.getElementById('orb');
   
     let xOffset = 0, yOffset = 0;
-    let orbSpeed = 0.02;
+    const orbSpeed = 0.03;
   
+    // Function to animate the orb moving in a circular pattern
     function animateOrb() {
       xOffset += orbSpeed;
       yOffset += orbSpeed;
