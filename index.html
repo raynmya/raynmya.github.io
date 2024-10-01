@@ -1,127 +1,205 @@
 <html><head><base href="https://www.linkedin.com/in/ryanmya">
-<title>Ryan Mya - Full Stack + MLOps</title>
-<style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #2b1331 0%, #1c0b24 100%);
-    color: white;
-  }
-  #content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 10;
-  }
-  h1 {
-    font-size: 4em;
-    margin-bottom: 0.2em;
-  }
-  p {
-    font-size: 1.5em;
-    margin-top: 0;
-  }
-  #hand {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 90C30 90 15 75 15 55C15 35 30 20 50 20C70 20 85 35 85 55C85 75 70 90 50 90Z" fill="rgba(173,216,230,0.2)"/></svg>') no-repeat center center;
-    background-size: 30%;
-    pointer-events: none;
-    transition: all 0.1s ease;
-  }
-  .social-buttons {
-    margin-top: 20px;
-  }
-  .social-icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    transition: all 0.3s ease;
-  }
-  .social-icon:hover {
-    transform: translateY(-3px);
-    filter: brightness(1.2);
-  }
-  #orb {
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(173,216,230,0.4) 70%, rgba(173,216,230,0) 100%);
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 5;
-    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
-  }
-</style>
-</head>
-<body>
-<div id="hand"></div>
-<div id="orb"></div>
-<div id="content">
-  <h1>Ryan Mya</h1>
-  <p>Full Stack + MLOps</p>
-  <div class="social-buttons">
-    <a href="https://www.linkedin.com/in/ryanmya" target="_blank">
-      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIgZmlsbD0iIzAwNzZiMiIvPjwvc3ZnPg==" alt="LinkedIn" class="social-icon">
-    </a>
-    <a href="https://github.com/raynmya/raynmya.github.io" target="_blank">
-      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIgZmlsbD0iIzZlNWM5NyIvPjwvc3ZnPg==" alt="GitHub" class="social-icon">
-    </a>
-    <a href="https://www.youtube.com/@rockypatrick" target="_blank">
-      <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuNDk4IDYuMTg2YTMuMDE2IDMuMDE2IDAgMCAwLTIuMTIyLTIuMTM2QzE5LjUwNSAzLjU0NSAxMiAzLjU0NSAxMiAzLjU0NXMtNy41MDUgMC05LjM3Ny41MDVBMy4wMTcgMy4wMTcgMCAwIDAgLjUwMiA2LjE4NkMwIDguMDk1IDAgMTIgMCAxMnMwIDMuOTA2LjUwMiA1LjgxNGEzLjAxNiAzLjAxNiAwIDAgMCAyLjEyMiAyLjEzNmMxLjg3MS41MDUgOS4zNzYuNTA1IDkuMzc2LjUwNXM3LjUwNSAwIDkuMzc3LS41MDVhMy4wMTUgMy4wMTUgMCAwIDAgMi4xMjItMi4xMzZDMjQgMTUuOTA2IDI0IDEyIDI0IDEycy0uMDAyLTMuOTA2LS41MDItNS44MTR6TTkuNTQ1IDE1LjU2OFY4LjQzMkwxNS44MTggMTJsLTYuMjczIDMuNTY4eiIgZmlsbD0iI2ZmMDAwMCIvPjwvc3ZnPg==" alt="YouTube" class="social-icon">
-    </a>
+  <title>Ryan Mya - Full Stack + MLOps</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #2b1331 0%, #1c0b24 100%);
+      color: white;
+      overflow-x: hidden;
+    }
+    #hero {
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+    #content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      z-index: 10;
+    }
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0.2em;
+    }
+    p {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+    #hand {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 90C30 90 15 75 15 55C15 35 30 20 50 20C70 20 85 35 85 55C85 75 70 90 50 90Z" fill="rgba(173,216,230,0.2)"/></svg>') no-repeat center center;
+      background-size: 30%;
+      pointer-events: none;
+      transition: all 0.1s ease;
+    }
+    .social-buttons {
+      margin-top: 20px;
+    }
+    .social-icon {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 0 10px;
+      transition: all 0.3s ease;
+    }
+    .social-icon:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.2);
+    }
+    #orb {
+      width: 150px;
+      height: 150px;
+      background: radial-gradient(circle, rgba(255,255,255,0.8) 0%, rgba(173,216,230,0.4) 70%, rgba(173,216,230,0) 100%);
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      z-index: 5;
+      transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+    }
+    #mlops-section {
+      padding: 50px 20px;
+      background: #1c0b24;
+      text-align: center;
+    }
+    #mlops-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #mlops-title {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #a487c3;
+    }
+    #mlops-subtitle {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #8a7b9d;
+    }
+    #truck-view {
+      width: 100%;
+      max-width: 800px;
+      height: 400px;
+      background: #2b1331;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 30px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    #truck-view:hover {
+      transform: scale(1.05);
+    }
+    #truck-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #kodiak-ai {
+      background: rgba(28, 11, 36, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    #kodiak-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #a487c3;
+    }
+    #kodiak-description {
+      font-size: 1em;
+      color: #8a7b9d;
+      margin-bottom: 20px;
+    }
+  </style>
+  </head>
+  <body>
+  <div id="hero">
+    <div id="hand"></div>
+    <div id="orb"></div>
+    <div id="content">
+      <h1>Ryan Mya</h1>
+      <p>Full Stack + MLOps</p>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/ryanmya" target="_blank">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIgZmlsbD0iIzAwNzZiMiIvPjwvc3ZnPg==" alt="LinkedIn" class="social-icon">
+        </a>
+        <a href="https://github.com/raynmya/raynmya.github.io" target="_blank">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMGMtNi42MjYgMC0xMiA1LjM3My0xMiAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMS4zODcuNTk5LjExMS43OTMtLjI2MS43OTMtLjU3N3YtMi4yMzRjLTMuMzM4LjcyNi00LjAzMy0xLjQxNi00LjAzMy0xLjQxNi0uNTQ2LTEuMzg3LTEuMzMzLTEuNzU2LTEuMzMzLTEuNzU2LTEuMDg5LS43NDUuMDgzLS43MjkuMDgzLS43MjkgMS4yMDUuMDg0IDEuODM5IDEuMjM3IDEuODM5IDEuMjM3IDEuMDcgMS44MzQgMi44MDcgMS4zMDQgMy40OTIuOTk3LjEwNy0uNzc1LjQxOC0xLjMwNS43NjItMS42MDQtMi42NjUtLjMwNS01LjQ2Ny0xLjMzNC01LjQ2Ny01LjkzMSAwLTEuMzExLjQ2OS0yLjM4MSAxLjIzNi0zLjIyMS0uMTI0LS4zMDMtLjUzNS0xLjUyNC4xMTctMy4xNzYgMCAwIDEuMDA4LS4zMjIgMy4zMDEgMS4yMy45NTctLjI2NiAxLjk4My0uMzk5IDMuMDAzLS40MDQgMS4wMi4wMDUgMi4wNDcuMTM4IDMuMDA2LjQwNCAyLjI5MS0xLjU1MiAzLjI5Ny0xLjIzIDMuMjk3LTEuMjMuNjUzIDEuNjUzLjI0MiAyLjg3NC4xMTggMy4xNzYuNzcuODQgMS4yMzUgMS45MTEgMS4yMzUgMy4yMjEgMCA0LjYwOS0yLjgwNyA1LjYyNC01LjQ3OSA1LjkyMS40My4zNzIuODIzIDEuMTAyLjgyMyAyLjIyMnYzLjI5M2MwIC4zMTkuMTkyLjY5NC44MDEuNTc2IDQuNzY1LTEuNTg5IDguMTk5LTYuMDg2IDguMTk5LTExLjM4NiAwLTYuNjI3LTUuMzczLTEyLTEyLTEyeiIgZmlsbD0iIzAwZmYwMCIvPjwvc3ZnPg==" alt="GitHub" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/@rockypatrick" target="_blank">
+          <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjMuNDk4IDYuMTg2YTMuMDE2IDMuMDE2IDAgMCAwLTIuMTIyLTIuMTM2QzE5LjUwNSAzLjU0NSAxMiAzLjU0NSAxMiAzLjU0NXMtNy41MDUgMC05LjM3Ny41MDVBMy4wMTcgMy4wMTcgMCAwIDAgLjUwMiA2LjE4NkMwIDguMDk1IDAgMTIgMCAxMnMwIDMuOTA2LjUwMiA1LjgxNGEzLjAxNiAzLjAxNiAwIDAgMCAyLjEyMiAyLjEzNmMxLjg3MS41MDUgOS4zNzYuNTA1IDkuMzc2LjUwNXM3LjUwNSAwIDkuMzc3LS41MDVhMy4wMTUgMy4wMTUgMCAwIDAgMi4xMjItMi4xMzZDMjQgMTUuOTA2IDI0IDEyIDI0IDEycy0uMDAyLTMuOTA2LS41MDItNS44MTR6TTkuNTQ1IDE1LjU2OFY4LjQzMkwxNS44MTggMTJsLTYuMjczIDMuNTY4eiIgZmlsbD0iI2ZmMDAwMCIvPjwvc3ZnPg==" alt="YouTube" class="social-icon">
+        </a>
+      </div>
+    </div>
   </div>
-</div>
-
-<script>
-let mouseX = 0, mouseY = 0;
-let orbX = 0, orbY = 0;
-
-const lerp = (start, end, t) => {
-  return start * (1 - t) + end * t;
-}
-
-document.addEventListener('mousemove', (e) => {
-  mouseX = e.clientX;
-  mouseY = e.clientY;
-});
-
-function animate() {
-  const hand = document.getElementById('hand');
-  const orb = document.getElementById('orb');
   
-  // Smooth orb movement
-  orbX = lerp(orbX, mouseX, 0.1);
-  orbY = lerp(orbY, mouseY, 0.1);
+  <div id="mlops-section">
+    <div id="mlops-content">
+      <h2 id="mlops-title">Projects</h2>
+      <p id="mlops-subtitle"></p>
+      <a href="https://devpost.com/software/zotpals" target="_blank" id="truck-view">
+        <img id="truck-image" src="/a/4e235c6c-1e37-43ae-a076-b6f9a382e9fe" alt="Anteater mascot" width="800" height="400">
+      </a>
+      <div id="kodiak-ai">
+        <h3 id="kodiak-title">ZotPal</h3>
+        <p id="kodiak-description">Struggle to be an academic weapon? Use ZotPal to grow your own academic weapon. A web app that incentivizes students to attend class by rewarding their pals with points to grow bigger and stronger.</p>
+      </div>
+    </div>
+  </div>
   
-  // Move the hand background
-  const handX = orbX / window.innerWidth * 100;
-  const handY = orbY / window.innerHeight * 100;
-  hand.style.backgroundPosition = `${handX}% ${handY}%`;
+  <script>
+  let mouseX = 0, mouseY = 0;
+  let orbX = 0, orbY = 0;
   
-  // Move the orb
-  orb.style.left = `${orbX}px`;
-  orb.style.top = `${orbY}px`;
+  const lerp = (start, end, t) => {
+    return start * (1 - t) + end * t;
+  }
   
-  // Add subtle rotation to the orb based on mouse position
-  const rotateX = (orbY / window.innerHeight - 0.5) * 20;
-  const rotateY = (orbX / window.innerWidth - 0.5) * 20;
-  orb.style.transform = `translate(-50%, -50%) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+  document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  });
   
-  requestAnimationFrame(animate);
-}
-
-animate();
-</script>
-</body>
-</html>
+  function animate() {
+    const hand = document.getElementById('hand');
+    const orb = document.getElementById('orb');
+    
+    // Smooth orb movement
+    orbX = lerp(orbX, mouseX, 0.1);
+    orbY = lerp(orbY, mouseY, 0.1);
+    
+    // Move the hand background
+    const handX = orbX / window.innerWidth * 100;
+    const handY = orbY / window.innerHeight * 100;
+    hand.style.backgroundPosition = `${handX}% ${handY}%`;
+    
+    // Move the orb
+    orb.style.left = `${orbX}px`;
+    orb.style.top = `${orbY}px`;
+    
+    // Add subtle rotation to the orb based on mouse position
+    const rotateX = (orbY / window.innerHeight - 0.5) * 20;
+    const rotateY = (orbX / window.innerWidth - 0.5) * 20;
+    orb.style.transform = `translate(-50%, -50%) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    
+    requestAnimationFrame(animate);
+  }
+  
+  animate();
+  </script>
+  </body>
+  </html>
