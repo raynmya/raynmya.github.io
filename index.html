@@ -88,7 +88,7 @@
       margin-bottom: 30px;
       color: #8a7b9d;
     }
-    #truck-view {
+    .project-view {
       width: 100%;
       max-width: 800px;
       height: 400px;
@@ -100,26 +100,27 @@
       cursor: pointer;
       transition: transform 0.3s ease;
     }
-    #truck-view:hover {
+    .project-view:hover {
       transform: scale(1.05);
     }
-    #truck-image {
+    .project-image {
       width: 100%;
       height: 100%;
       object-fit: cover;
     }
-    #kodiak-ai {
+    .project-info {
       background: rgba(28, 11, 36, 0.8);
       padding: 20px;
       border-radius: 10px;
       margin-top: 20px;
+      margin-bottom: 40px;
     }
-    #kodiak-title {
+    .project-title {
       font-size: 1.5em;
       margin-bottom: 10px;
       color: #a487c3;
     }
-    #kodiak-description {
+    .project-description {
       font-size: 1em;
       color: #8a7b9d;
       margin-bottom: 20px;
@@ -151,12 +152,21 @@
     <div id="mlops-content">
       <h2 id="mlops-title">Projects</h2>
       <p id="mlops-subtitle"></p>
-      <a href="https://devpost.com/software/zotpals" target="_blank" id="truck-view">
-        <img id="truck-image" src="https://github.com/raynmya/raynmya.github.io/blob/main/anteater2.0.png?raw=true" alt="Anteater mascot" width="800" height="400">
+      
+      <a href="https://devpost.com/software/zotpals" target="_blank" class="project-view">
+        <img class="project-image" src="/a/4e235c6c-1e37-43ae-a076-b6f9a382e9fe" alt="Anteater mascot" width="800" height="400">
       </a>
-      <div id="kodiak-ai">
-        <h3 id="kodiak-title">ZotPal</h3>
-        <p id="kodiak-description">Struggle to be an academic weapon? Use ZotPal to grow your own academic weapon. A web app that incentivizes students to attend class by rewarding their pals with points to grow bigger and stronger.</p>
+      <div class="project-info">
+        <h3 class="project-title">ZotPal</h3>
+        <p class="project-description">Struggle to be an academic weapon? Use ZotPal to grow your own academic weapon. A web app that incentivizes students to attend class by rewarding their pals with points to grow bigger and stronger.</p>
+      </div>
+      
+      <a href="https://litpath.org" target="_blank" class="project-view">
+        <img class="project-image" src="https://github.com/raynmya/raynmya.github.io/blob/main/image-2.png?raw=true" alt="Person Table interface screenshot" width="800" height="400">
+      </a>
+      <div class="project-info">
+        <h3 class="project-title">Lit Path</h3>
+        <p class="project-description">Designing an efficient and user-friendly interface to help connect therapists to patients.</p>
       </div>
     </div>
   </div>
