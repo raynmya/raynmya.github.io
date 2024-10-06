@@ -66,26 +66,52 @@
       z-index: 5;
       transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     }
-    #mlops-section {
+    #missions-section, #mlops-section {
       padding: 50px 20px;
       background: #1c0b24;
       text-align: center;
     }
-    #mlops-content {
+    #missions-content, #mlops-content {
       max-width: 1200px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
       align-items: center;
     }
-    #mlops-title {
+    #missions-title, #mlops-title {
       font-size: 2.5em;
       margin-bottom: 20px;
       color: #a487c3;
     }
-    #mlops-subtitle {
+    #missions-subtitle, #mlops-subtitle {
       font-size: 1.2em;
       margin-bottom: 30px;
+      color: #8a7b9d;
+    }
+    .mission-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      width: 100%;
+      max-width: 1000px;
+    }
+    .mission-item {
+      background: rgba(43, 19, 49, 0.7);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+    .mission-item:hover {
+      transform: translateY(-5px);
+    }
+    .mission-title {
+      font-size: 1.2em;
+      color: #a487c3;
+      margin-bottom: 10px;
+    }
+    .mission-description {
+      font-size: 0.9em;
       color: #8a7b9d;
     }
     .project-view {
@@ -125,6 +151,13 @@
       color: #8a7b9d;
       margin-bottom: 20px;
     }
+    .mission-item a {
+      text-decoration: none;
+      color: inherit;
+    }
+    a {
+      text-decoration: none;
+    }
   </style>
   </head>
   <body>
@@ -148,21 +181,39 @@
     </div>
   </div>
   
+  <div id="missions-section">
+    <div id="missions-content">
+      <h2 id="missions-title">Current Missions</h2>
+      <p id="missions-subtitle">Exploring new frontiers in technology and business</p>
+      
+      <div class="mission-grid">
+        <a href="https://www.researchgate.net/lab/Luo-Lab-in-Biophysical-Chemistry-Ray-Luo" target="_blank" class="mission-item">
+          <h3 class="mission-title">Molecular Docking</h3>
+          <p class="mission-description">Using machine learning techniques to simulate protein interactions</p>
+        </a>
+        <a href="https://www.igb.uci.edu" target="_blank" class="mission-item">
+          <h3 class="mission-title">ICS Honors Program</h3>
+          <p class="mission-description">Pushing the boundaries of medicine with artificial intelligence</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  
   <div id="mlops-section">
     <div id="mlops-content">
       <h2 id="mlops-title">Projects</h2>
       <p id="mlops-subtitle"></p>
       
       <a href="https://devpost.com/software/zotpals" target="_blank" class="project-view">
-        <img class="project-image" src="https://github.com/raynmya/raynmya.github.io/blob/main/anteater2.0.png?raw=true" alt="Anteater mascot" width="800" height="400">
+        <img class="project-image" src="/a/4e235c6c-1e37-43ae-a076-b6f9a382e9fe" alt="Anteater mascot" width="800" height="400">
       </a>
       <div class="project-info">
         <h3 class="project-title">ZotPal</h3>
         <p class="project-description">Struggle to be an academic weapon? Use ZotPal to grow your own academic weapon. A web app that incentivizes students to attend class by rewarding their pals with points to grow bigger and stronger.</p>
       </div>
       
-      <a href="https://litpath.org" target="_blank" class="project-view">
-        <img class="project-image" src="https://github.com/raynmya/raynmya.github.io/blob/main/image-2.png?raw=true" alt="Person Table interface screenshot" width="800" height="400">
+      <a href="https://devpost.com/software/zotpals" target="_blank" class="project-view">
+        <img class="project-image" src="/a/dae2f92a-f565-438a-a36c-68c3055a60ab" alt="Person Table interface screenshot" width="800" height="400">
       </a>
       <div class="project-info">
         <h3 class="project-title">Lit Path</h3>
